@@ -1,7 +1,5 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <router-view></router-view>
-
 </template>
 
 <script>
@@ -17,12 +15,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  padding: 0;
+  margin: 0;
 }
 .logo {
     width: 150px;
 }
-.register input, .login input{
+.register input, .login input, .add input{
     width: 300px;
     height: 40px;
     padding-left: 20px;
@@ -32,7 +33,7 @@ export default {
     margin-right: auto;
     border: 1px solid skyblue;
 }
-.register button, .login button{
+.register button, .login button, .add button{
     width: 325px;
     height: 40px;
     border: 1px solid skyblue;
