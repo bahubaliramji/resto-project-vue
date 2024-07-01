@@ -30,5 +30,19 @@
       "email": "john@test.com",
       "password": "john@123"
     }
+  ],
+  "restaurants": [
+    {
+      "name": "Dominos Update",
+      "address": "Piplani bhopal",
+      "contact": "0987654321",
+      "id": "55e8"
+    },
+    {
+      "id": "fe3a",
+      "name": "Amrendra Pratap Singh",
+      "address": "Bhopal",
+      "contact": "123456789087"
+    }
   ]
 }
